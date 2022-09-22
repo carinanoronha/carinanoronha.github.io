@@ -125,7 +125,7 @@ img {
 .paragraph h2 {
   font-weight: 400;
   font-size: 1.3rem;
-  margin: 16rem 0 1rem;
+  margin: -1rem 0 1rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: hsl(231, 7%, 65%);
