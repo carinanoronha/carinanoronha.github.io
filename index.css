@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {                          /* style-guide */ 
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    color: hsl(230, 29%, 20%);
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+a {                             /* Inherit: o estilo será herdado do elemento pai */
+    text-decoration: none;
+    color: inherit;     
+    font-size: inherit;
+}
+
+h1, 
+h2, 
+li, 
+.cta {                                              /* style-guide */
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+p {
+    line-height: 1.8;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    position: absolute;
+    top: -100vh;
+    background-color: #fff;
+    padding: 1.5rem;
+    width: 90%;
+    margin: auto;
+    border-radius: 0.625rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+nav.open {
+    top: 6rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05 rem;
+}
+
+nav ul li:nth-child(4) {
+    display: none;
+}
+
+nav ul li:nth-last-child {
+    border-top: 1px solid hsl(207, 33%, 95%);
+    padding-top: 1rem;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.showcase h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color:hsl(231, 7%, 65%);
+}
+
+.showcase h2 span {
+    background-color: hsl(230, 29%, 20%);
+    color: #fff;
+    padding: 0.2rem 0.8rem;
+    border-radius: 30px;
+    letter-spacing: 0;
+}
+
+.showcase h1 {
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.showcase .cta {
+    background-color: hsl(0, 100%, 68%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
