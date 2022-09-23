@@ -28,11 +28,11 @@ body {                                      /* style-guide */
     z-index: -1;
   }
 
-  .header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
   }
 
@@ -67,7 +67,7 @@ nav.open {
     display: none;
 }
   
-  nav ul {
+nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +75,7 @@ nav.open {
     gap: 1rem;
   }
   
-  nav ul li a {
+nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
@@ -124,7 +124,7 @@ img {
 
 .paragraph h2 {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin: -1rem 0 1rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -148,10 +148,14 @@ img {
 
 .paragraph p {
   margin-bottom: 3rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 10rem;
+  color:hsl(231, 7%, 65%);
+  letter-spacing: 0rem;
 }
 
 .paragraph .bt span1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #fff;
     background-color: hsl(0, 100%, 68%);
     font-family: "Barlow Condensed", sans-serif;
@@ -163,6 +167,7 @@ img {
 }
 
 .paragraph .bt span2 {
+  font-family: "Barlow Condensed", sans-serif;
   font-size: 0.8rem;
   color: hsl(231, 7%, 65%);
   margin-left: 2rem;
@@ -170,12 +175,12 @@ img {
   text-transform: uppercase;
 }
 
-.attribution {
+.reference footer {
   font-size: 4px;
   text-align: center;
 }
 
-.attribution a {
+.reference a {
   color: hsl(228, 45%, 44%);
 }
 
